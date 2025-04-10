@@ -1,0 +1,239 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  font-family: inherit;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: medium;
+
+  color-scheme: light dark;
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #ffffff;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  place-items: center;
+  min-width: 400px;
+  min-height: 100vh;
+}}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button  {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background: linear-gradient(90deg, #ee4908c9, #ee0808d1);
+  color:#fdfdfd;
+  border-color: #c81b1b97;
+  
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #fdfdfd;
+
+  font-size: 1.1em;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.button2 {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.3em 0.6em;
+  font-size: 0.5em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #fcfcfc;
+  cursor: pointer;
+  color:#000000;
+  transition: border-color 0.25s;
+}
+
+.button3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+.button4 {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.button4:hover {
+  border-color: #000000;
+  color: #ffffff;
+  font-size: 1.1em;
+}
+.button4:focus,
+.button4:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+.button5 {
+  border-color: #f8f8f8;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.3em 0.6em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #fcfcfc;
+  cursor: pointer;
+  color:#000000;
+  transition: border-color 0.25s;
+}
+.button5:hover {
+  border-color: #fffefe;
+  color: #000000;
+  font-size: 1.1em;
+}
+.button5:focus,
+.button5:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+.lovely {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lovelyr {
+  display: flex;
+  align-items: right;
+ 
+}
+
+.fonty {
+  font-size: 2em;
+  font-weight: 500;
+  font-family: inherit;
+  color:rgb(249, 246, 246);
+}
+
+
+
+.fontyl {
+  font-size: 1em;
+  font-weight: 400;
+  font-family: inherit;
+
+  color:rgb(247, 241, 241);
+}
+
+
+.fontyll {
+  font-size: 1em;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.fontyll:hover {
+
+  font-size: 1.1em;
+}
+
+.lovelyp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
