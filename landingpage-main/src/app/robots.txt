@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /private/
+Disallow: /impressum-datenschutz
+
+Sitemap: https://purepitchai.com/sitemap.xml

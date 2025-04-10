@@ -1,0 +1,332 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+  --secondary-glow: conic-gradient(
+    from 10deg at 50% 50%,
+    #eb7494 0deg,
+    #ae77b2 55deg,
+    #97b5da 120deg,
+    #0099ca 160deg,
+    transparent 360deg
+  );
+
+  --third-glow: conic-gradient(
+    from 90deg at 50% 50%,
+    #ff8b7e 0deg,
+    #e24e6b 160deg,
+    #7ed2da 120deg,
+    #8bdce0 55deg,
+    transparent 360deg
+  );
+}
+
+
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+.lov {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 991px) {
+  .lovely {
+    padding: 0em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .lovelyc {
+    padding: 0em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .lovelyp {
+    padding: 0em;
+    margin-bottom: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .containervid {
+    padding: 0em;
+    margin: 1em;
+    display: flex;
+    min-width: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .lovz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+    .circle {
+      display: none;
+    }
+    .hide {
+      display: flex;
+      font-size: 2em;
+      padding-bottom: 1em;
+       }
+       
+
+       .bobbi {
+        padding-bottom: 0em;
+         }
+         .widy {
+          min-width: 200px;
+           }
+    
+
+}
+
+@media only screen and (min-width: 992px) {
+  .widy {
+    min-width: 20px;
+     }
+  .bobbi {
+    padding-bottom: 32px;
+     }
+
+  .lovz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fffefe00;
+    display: flex;
+    font-size: 24px;
+  }
+  .hide {
+ display: none;
+  }
+  
+  .button2 {
+    background-image: linear-gradient(to right, rgb(96, 205, 45), rgb(24, 153, 127));
+  
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .button2:hover {
+    transform: scale(1.1);
+    border-color: black;
+    background-image: linear-gradient(to right, rgb(96, 205, 45), rgb(24, 153, 127));
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .lovely {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lovelyc {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .lovelyp {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .containervid {
+    margin: 1em;
+    display: flex;
+    min-width: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+
+
+.column {
+  padding: 16px;
+  margin: 5px;
+}
+.column1 {
+  padding: 40px;
+  margin: 5px;
+}
+
+.love {
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.button {
+  background-color: black;
+  color: white;
+  border: none;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  animation: pulse 1s infinite;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+  transform: scale(1.1);
+  border-color: black;
+  background-image: linear-gradient(to right, red, orange);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  animation: pulse 1s infinite;
+}
+
+
+@media only screen and (min-width: 992px) {
+  .fontbold {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 10px;
+  } 
+  .fontboldk {
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-bottom: 10px;
+  } 
+  .bobby {
+    margin-bottom: 22px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .fontbold {
+    padding-bottom: 10px;
+  } 
+  .fontboldk {
+    padding-bottom: 10px;
+    min-width: 300px;
+  } 
+  .bobby {
+    margin-bottom: 0px;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.shadow {
+  padding: 8px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+
+.circleframe {
+  width: 130px;
+  height: 130px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  background-color: #ffffff00;
+  display: flex;
+  font-size: 24px;
+}
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+  .button2 {
+    background-image: linear-gradient(to right, rgb(96, 205, 45), rgb(24, 153, 127));
+    padding: 10px 20px;
+    margin-bottom: 8px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .button2:hover {
+    transform: scale(1.1);
+    border-color: black;
+    background-image: linear-gradient(to right, rgb(96, 205, 45), rgb(24, 153, 127));
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px; /* Adjust as needed */
+    background-color: #ffffff;
+    z-index: 1000;
+    transition: all 0.3s ease; /* Apply transition effect */
+  }
+.menu-scrolled {
+  height: 40px; /* Shrink the menu height when scrolled */
+  background-color: transparent; /* Make the background transparent when scrolled */
+}
+}
